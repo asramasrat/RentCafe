@@ -1,0 +1,80 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	background-image: url("backgroundImage.svg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.error {
+  color: red;
+}
+.container_form {
+    display: flex;
+    margin: 55px 240px !important;
+    background-color: white;
+    border-radius: 40px;
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.form_left {
+    flex: 1;
+    padding: 10px 30px 50px 30px;
+}
+
+.form_right {
+    padding-top: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form {
+    display: flex;
+    align-items: center;
+}
+h2 {
+    font-weight: 700 !important;
+    margin-bottom: 0px;
+}
+label {
+    font-size: large;
+    font-weight: 600;
+}
+input[type=text],input[type=password],input[type=email] {
+    width: 220px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    display: inline-block;
+}
+.subm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.btn-primary {
+    border-radius: 8px !important;
+    width: 85px !important;
+    height: 35px !important;
+    background-color: #5068A9 !important;
+}
+.btn-danger {
+    outline: none;
+    border-radius: 8px !important;
+    width: 85px !important;
+    height: 35px !important;
+    background-color: #F73C4F !important;
+}
+#back, #submit {
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.3);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.3);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.3);
+}
