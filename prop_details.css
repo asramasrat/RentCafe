@@ -1,0 +1,24 @@
+    .cn-bt {
+    padding: 5px 10px;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+    border: 1px solid turquoise;
+    border-radius: 8px;
+    text-align: center;
+    -webkit-transition: all ease-in-out .2s;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+  }
+  .cn-bt:hover {
+    background: turquoise;
+    color: #fff;
+  }
+  p{
+      margin-bottom: 5px !important;
+  }
+  .carousel-inner > .carousel-item > img { 
+    background-color: rgb(226, 226, 226);  
+    width:550x; 
+    height:400px; 
+    object-fit: contain;
+    }
