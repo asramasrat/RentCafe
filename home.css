@@ -1,0 +1,44 @@
+.home_content {
+    background-image: url("asset/Landing.jpg");
+}
+.intro {
+    padding-top: 450px;
+    padding-bottom: 400px;
+    text-align: center;
+}
+.intro p {
+    font-weight: 500;
+}
+#hbtn {
+    background-color: #4173C6;
+    border-radius: 5px; 
+}
+.about_us {
+    background-color: #10214D;
+    text-align: center;
+    color: #fff;
+}
+h1 {
+    font-weight: bold;
+}
+.our_services
+{
+    text-align: center;
+}
+@media (max-width: 768px) 
+{
+    .home_content
+    {
+        background-image: none;
+    }
+    .intro
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.footer {
+    background-color: #10214D;
+    text-align: center;
+    color: #fff;
+}
